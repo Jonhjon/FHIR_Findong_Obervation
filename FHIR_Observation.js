@@ -139,15 +139,15 @@ var find={
   } } ]}
   
   function Submit(){
-    find.component[1].valueString=document.getElementsByName("pharyngeal mucosa")[0].values
-    find.component[2].valueString=document.getElementsByName("oral cavity")[0].values
-    find.component[3].valueString=document.getElementsByName("larynx")[0].values
-    find.component[4].valueString=document.getElementsByName("nodes")[0].values
-    find.component[5].valueString=document.getElementsByName("salivary glands")[0].values
-    find.component[6].valueString=document.getElementsByName("thyroid")[0].values
-    find.component[7].valueString=document.getElementsByName("flow voids and carotid space")[0].values
-    find.component[8].valueString=document.getElementsByName("bones")[0].values
-    find.component[9].valueString=document.getElementsByName("other")[0].values
+    find.component[1].valueString=document.getElementsByName("pharyngeal mucosa")[0].value
+    find.component[2].valueString=document.getElementsByName("oral cavity")[0].value
+    find.component[3].valueString=document.getElementsByName("larynx")[0].value
+    find.component[4].valueString=document.getElementsByName("nodes")[0].value
+    find.component[5].valueString=document.getElementsByName("salivary glands")[0].value
+    find.component[6].valueString=document.getElementsByName("thyroid")[0].value
+    find.component[7].valueString=document.getElementsByName("flow voids and carotid space")[0].value
+    find.component[8].valueString=document.getElementsByName("bones")[0].value
+    find.component[9].valueString=document.getElementsByName("other")[0].value
 
     postData(find,"Observation")
   }
